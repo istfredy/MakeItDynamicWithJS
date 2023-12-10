@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>The Good Parts</title>
+		<link rel="stylesheet" href="styles.css">
+		<script type="module" src="pieces.js"></script>
+		<script src="./node_modules/chart.js/dist/chart.umd.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<img src="images/logo-les-bonnes-pieces.png" alt="LOGO">
+			<h1>The Good Parts</h1>
+		</header>
+		<main>
+			<!-- Menu de recherche -->
+			<section class="filtres">
+				<h3>Filters 📑</h3>
+				<button class="btn-trier">Sort by ascending price</button>
+				<br><br>
+				<button class="btn-filtrer">Filter unaffordable parts</button>
+				<br> <br>
+				<input type="range" name="filterbyprice" id="filterbyprice" class="filterbyprice" min="0" max="60" step="5">
+				<h3>Add a review 🗨</h3>
+				<form action="" class="formulaire-avis">
+					Part identifier : <br>
+					<input type="number" name="piece-id" id="piece-id"><br>
+					Username : <br>
+					<input type="text" name="utilisateur" id="utilisateur"><br>
+					Review : <br>
+					<input type="text" name="avis" id="avis"><br>
+					Star It⭐ : <br>
+					<input type="number" name="nb-star" id="nb-star"> <br> <br>
+					<button>Submit</button>
+				</form>
+				<h3>Data 📁</h3>
+				<button class="update-articles">Update parts💱</button>
+				<h3>Review statistics 📈</h3>
+				<canvas class="graph-canvas-review" id="graph-canvas-review" height="300" width="200"></canvas>
+				<h3>Disponibility statistics 🎯</h3>
+				<canvas class="graph-canvas-dispo" id="graph-canvas-dispo" height="150" width="150"></canvas>
+			</section>
+
+			<!-- Fiches produits -->
+			<section class="fiches">
+
+			</section>
+		</main>
+	</body>
+</html>
