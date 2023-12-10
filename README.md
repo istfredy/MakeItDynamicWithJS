@@ -209,25 +209,26 @@ Here, I've learned how to add interactivity to my website without a data connect
     - Data in localStorage is synchronous.
     - Data in localStorage persists when we close and reopen the app.
 
-## To Test It
+## To Test It ⚙🛠
 
 Open your terminal:
-2. Clone the repo by pasting: `git clone https://github.com/th3fr3dy/MakeItDynamicWithJS.git`
-3. Navigate to the directory: `cd MakeItDynamicWithJS`
-4. To install dependencies and run the app: `npm install` & `npm start`
+1. Clone the repo by pasting: `git clone https://github.com/th3fr3dy/MakeItDynamicWithJS.git`
+2. Navigate to the directory: `cd MakeItDynamicWithJS`
+3. To install dependencies and run the app: `npm install` & `npm start`
 
 Open another terminal in that directory:
 1. Navigate to the `api-http` directory: `cd api-http`
 2. To install dependencies and run the app: `npm install` & `npm start`
 
-Now, the frontend and backend are ready. You can go to [http://127.0.0.1:8080/] to test the app.
+Now, the frontend and backend are ready. You can go to *http://127.0.0.1:8080/*
+to test the app.
 
-## Demo of My Training Web App
+## Demo of My Training Web App 💻
 
 ![App Prototype](./images/app-prototype.jpg)
 
 Instagram: *@th3fr3dy* <br>
 Telegram: *@th3fr3dy* <br>
-My Home: [https://th3fr3dy.me]
+My Home: *https://th3fr3dy.me*
 
 ---
