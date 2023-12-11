@@ -208,8 +208,28 @@ Here, I've learned how to add interactivity to my website without a data connect
     - Data in localStorage is accessible in JavaScript running on the same domain. Avoid storing credential data inside localStorage as it's susceptible to XSS (Cross-Site Scripting) attacks.
     - Data in localStorage is synchronous.
     - Data in localStorage persists when we close and reopen the app.
+    
+## ESlint for clean and debug my code 🧨
+**ESlint**, that help Software Engineer to making JavaScript code more consistent and avoiding bugs. <br>
+How to use it ?
+1. Install it...
+```shell
+npm install eslint
+```
 
-## To Test It ⚙🛠
+2. Config it...
+```shell
+npm init @eslint/config
+```
+
+3. Check my code...
+```shell
+npm run lint
+```
+
+![For my case...](./images/error-prototype.jpg)
+
+## To Test It ⚙🛠n
 
 Open your terminal:
 1. Clone the repo by pasting: `git clone https://github.com/th3fr3dy/MakeItDynamicWithJS.git`
@@ -228,7 +248,6 @@ to test the app.
 ![App Prototype](./images/app-prototype.jpg)
 
 Instagram: *@th3fr3dy* <br>
-Telegram: *@th3fr3dy* <br>
-My Home: *https://th3fr3dy.me*
+👨‍💻: *https://th3fr3dy.me*
 
 ---

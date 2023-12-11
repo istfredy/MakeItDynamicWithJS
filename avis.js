@@ -1,4 +1,4 @@
-
+/* global Chart */
 /* Add listener to get avis */
 export  function addListenerAvis () {
     const getButtons = document.querySelectorAll(".fiches article button")
@@ -100,7 +100,7 @@ export  async function displayChartReviews () {
         }
     }
 
-    const displayChart = new Chart(
+    new Chart(
         document.querySelector("#graph-canvas-review"),
         config
     )

@@ -4,6 +4,7 @@
     License: MIT
     Description: Make your webapp more dynamic using JavaScript
 */
+/* global Chart */
 
 import { addListenerAvis, addListenerSendAvis, displayChartReviews } from "./avis.js"
 
@@ -123,7 +124,7 @@ const displayChartByDisponibility = () => {
         data : data
     }
 
-    const displayChart = new Chart(
+    new Chart(
         document.querySelector("#graph-canvas-dispo"),
         config
     )
